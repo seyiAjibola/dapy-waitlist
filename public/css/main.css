@@ -684,7 +684,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 .card-hover__bittersweet:hover:hover {
   box-shadow: 0 8px 45px rgba(96, 1, 211, 0.25);
   border-radius: 10px;
-  background-color: #ff7272;
+  background-color: #016cff;
 }
 
 .card-hover__bittersweet:hover:hover .card--services-l6__icon {
@@ -1387,8 +1387,8 @@ button:focus {
 
 .btn-bittersweet {
   color: #000;
-  background-color: #ff7272;
-  border-color: #ff7272;
+  background-color: #016cff;
+  border-color: #016cff;
 }
 
 .btn-bittersweet:hover {
@@ -1420,8 +1420,8 @@ button:focus {
 
 .btn-bittersweet:disabled, .btn-bittersweet.disabled {
   color: #000;
-  background-color: #ff7272;
-  border-color: #ff7272;
+  background-color: #016cff;
+  border-color: #016cff;
 }
 
 .btn-niagara {
@@ -1876,14 +1876,14 @@ button:focus {
 }
 
 .btn-outline-bittersweet {
-  color: #ff7272;
-  border-color: #ff7272;
+  color: #016cff;
+  border-color: #016cff;
 }
 
 .btn-outline-bittersweet:hover {
   color: #000;
-  background-color: #ff7272;
-  border-color: #ff7272;
+  background-color: #016cff;
+  border-color: #016cff;
 }
 
 .btn-check:focus + .btn-outline-bittersweet, .btn-outline-bittersweet:focus {
@@ -1893,8 +1893,8 @@ button:focus {
 .btn-check:checked + .btn-outline-bittersweet,
 .btn-check:active + .btn-outline-bittersweet, .btn-outline-bittersweet:active, .btn-outline-bittersweet.active, .btn-outline-bittersweet.dropdown-toggle.show {
   color: #000;
-  background-color: #ff7272;
-  border-color: #ff7272;
+  background-color: #016cff;
+  border-color: #016cff;
 }
 
 .btn-check:checked + .btn-outline-bittersweet:focus,
@@ -1903,7 +1903,7 @@ button:focus {
 }
 
 .btn-outline-bittersweet:disabled, .btn-outline-bittersweet.disabled {
-  color: #ff7272;
+  color: #016cff;
   background-color: transparent;
 }
 
@@ -4881,7 +4881,7 @@ body[data-theme="dark"] .reveal-header .nav-link-item,
   Home 8 : Pricing Table
 ---------------------------------*/
 .table-section--l8 .list-checked--bittersweet li:before {
-  color: #ff7272 !important;
+  color: #016cff !important;
 }
 
 .table-section--l8 .list-checked--niagara li:before {
@@ -12214,11 +12214,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .content-section--8 .widgets--about-l6 .widgets__icon {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-  color: #ff7272 !important;
+  color: #016cff !important;
 }
 
 .content-section--8 .widgets--about-l6:hover .widgets__icon {
-  background-color: #ff7272 !important;
+  background-color: #016cff !important;
   color: #fff !important;
 }
 
@@ -13221,7 +13221,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   Home 8
 ---------------------------------*/
 .promo-area--l8 {
-  background-image: linear-gradient(300deg, #1e1a6c 0%, #1e1a6c 33%, #20aa8e 53%, #20aa8e 53%, #82c4c3 100%);
+  background-image: linear-gradient(300deg, #1e1a6c 0%, #1e1a6c 33%, #016cff 53%, #438aec 53%, #6d9bdb 100%);
   position: relative;
 }
 
@@ -14767,7 +14767,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .table-section--l8 .pricing-btn .btn-toggle:checked {
-  background-color: #ff7272 !important;
+  background-color: #016cff !important;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 

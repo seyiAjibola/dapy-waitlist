@@ -43,7 +43,7 @@
   --bs-torch-red: #ff1e38;
   --bs-watermelon: #fd5284;
   --bs-niagara: #1e1a6c;
-  --bs-bittersweet: #ff7272;
+  --bs-bittersweet: #016cff;
   --bs-lavender: #be79df;
   --bs-cod-gray: #161616;
   --bs-half-baked: #82c4c3;
@@ -11944,7 +11944,7 @@ fieldset:disabled .btn {
 }
 
 .bg-bittersweet {
-  background-color: #ff7272 !important;
+  background-color: #016cff !important;
 }
 
 .bg-niagara {
@@ -12044,7 +12044,7 @@ fieldset:disabled .btn {
 }
 
 .text-bittersweet {
-  color: #ff7272 !important;
+  color: #016cff !important;
 }
 
 .text-yellow {
