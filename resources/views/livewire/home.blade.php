@@ -93,7 +93,7 @@
             <div class="hero-img d-flex align-items-end">
               <div class="hero-l8-img-group d-flex align-items-end">
                 <div class="hero-l8-img-group__1">
-                  <img class="w-100" src="./image/home-7/hero-l8-1.png" alt="">
+                  <img class="w-100" src="./image/home-7/phone-1.png" alt="">
                 </div>
                 <div class="hero-l8-img-group__2">
                   <img class="w-100" src="./image/home-7/hero-l8-2.png" alt="">

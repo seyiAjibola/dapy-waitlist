@@ -518,7 +518,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 }
 
 .shadow--bittersweet-2 {
-  box-shadow: 0 10px 20px rgba(255, 114, 114, 0.6);
+  box-shadow: 0 10px 20px rgb(1, 108, 255, 0.6);
 }
 
 .shadow--niagara {
@@ -526,7 +526,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 }
 
 .shadow--niagara-2 {
-  box-shadow: 0 10px 20px rgba(9, 154, 151, 0.6);
+  box-shadow: 0 10px 20px rgb(30, 26, 108, 0.6);
 }
 
 .shadow--niagara-3 {
