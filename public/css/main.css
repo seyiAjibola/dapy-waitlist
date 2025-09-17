@@ -10256,7 +10256,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   Home 8 : Welcome Section
 ------------------------------*/
 .welcome-area--l8 {
-  background-color: rgba(21, 205, 168, 0.2);
+  background-color: rgb(200 199 237);
   padding-top: 0;
   padding-top: 50px;
   padding-bottom: 60px;
