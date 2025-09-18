@@ -81,7 +81,7 @@
                 among the first to experience DAPY On-Demand Pay.
               </p>
               <div class="welcome-btn-group--l8">
-                <a class="btn btn--lg-2 btn-bittersweet me-3 text-white rounded-50 me-3 popup-btn" href="#join-here" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true">
+                <a class="btn btn--lg-2 btn-bittersweet me-3 text-white rounded-50 me-3" href="#join-here" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true">
                   Join the Waitlist Now
                 </a>
               </div>
@@ -96,7 +96,7 @@
                   <img class="w-100" src="./image/home-7/phone-1.png" alt="">
                 </div>
                 <div class="hero-l8-img-group__2">
-                  <img class="w-100" src="./image/home-7/hero-l8-2.png" alt="">
+                  <img class="w-100" src="./image/home-7/phone-4.png" alt="">
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@
                     Already 2,000+ workers and 50+ employers are ahead of you — don’t miss your spot!
                   </h3>
                   <div class="button-group">
-                    <a class="btn btn--lg btn-bittersweet shadow--bittersweet-2 text-white rounded-50 with-icon-2" href="#" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true"><i class="fab fa-apple"></i>
+                    <a class="btn btn--lg btn-bittersweet shadow--bittersweet-2 text-white rounded-50 with-icon-2" href="#join-here" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true"><i class="fab fa-apple"></i>
                       Reserve My Spot Now
                     </a>
                   </div>
