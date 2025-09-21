@@ -96,7 +96,7 @@
                   <img class="w-100" src="./image/home-7/phone-1.png" alt="">
                 </div>
                 <div class="hero-l8-img-group__2">
-                  <img class="w-100" src="./image/home-7/phone-4.png" alt="">
+                  <img class="w-100" src="./image/home-7/hero-l8-21.png" alt="">
                 </div>
               </div>
             </div>
