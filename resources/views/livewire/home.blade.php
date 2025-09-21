@@ -16,9 +16,9 @@
           <div class="brand-logo">
             <a href="/home-marketing.html">
               <!-- light version logo (logo must be black)-->
-              <img src="image/png/logo-dark.jpeg" alt="" class="light-version-logo" style="width: 150px; height: auto;">
+              <img src="image/png/logo-dark-trans.png" alt="" class="light-version-logo" style="width: 150px; height: auto;">
               <!-- Dark version logo (logo must be White)-->
-              <img src="image/png/logo-white.jpeg" alt="" class="dark-version-logo" style="width: 150px; height: auto;">
+              <img src="image/png/logo-light-trans.png" alt="" class="dark-version-logo" style="width: 150px; height: auto;">
             </a>
           </div>
           <div class="menu-block-wrapper  ms-4">
@@ -272,9 +272,9 @@
                 <div class="brand-logo mb-0 text-center text-md-start mx-auto mx-md-0">
                   <a href="#">
                     <!-- light version logo (logo must be black)-->
-                    <img src="image/png/logo-dark.jpeg" alt="" class="light-version-logo" style="width: 150px; height: auto;">
+                    <img src="image/png/logo-dark-trans.png" alt="" class="light-version-logo" style="width: 150px; height: auto;">
                     <!-- Dark version logo (logo must be White)-->
-                    <img src="image/png/logo-white.jpeg" alt="" class="dark-version-logo" style="width: 150px; height: auto;">
+                    <img src="image/png/logo-light-trans.jpeg" alt="" class="dark-version-logo" style="width: 150px; height: auto;">
                   </a>
                 </div>
               </div>
