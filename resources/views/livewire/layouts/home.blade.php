@@ -56,6 +56,12 @@
         margin-bottom: 0; 
     }
   }
+  .footer-social-share ul li a {
+    color: #1e1a6c;
+  }
+  .footer-social-share ul li a:hover {
+    color: #0378ff;
+  }
 </style>
 <body data-theme-mode-panel-active data-theme="light">
     {{ $slot }}
