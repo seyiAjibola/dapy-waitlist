@@ -75,10 +75,15 @@
             <div class="welcome-content welcome-content--l8">
               <h1 class="welcome-content--l8__title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Work Today.<br class="d-none d-xs-block d-lg-none d-xl-block">Get Paid Today.</h1>
               <p class="welcome-content--l8__descriptions" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true">
-                Join thousands of Nigerian workers and employers already on the path to financial freedom.
+                In today’s fast-paced world, financial stress directly impacts employee performance and loyalty. Waiting until payday is no longer sustainable.
                 <br class="d-none d-md-block">
-                Be
-                among the first to experience DAPY On-Demand Pay.
+                <br class="d-none d-md-block">
+               <strong>Dapy’s On-Demand Pay(EWA) changes everything:</strong>
+               <br />
+               <strong>For Employers</strong> → A proven way to boost recruitment, improve retention, and increase engagement.
+                <br />
+                <strong>For Employees</strong> → Financial flexibility when it’s needed most.
+
               </p>
               <div class="welcome-btn-group--l8">
                 <a class="btn btn--lg-2 btn-bittersweet me-3 text-white rounded-50 me-3" href="#join-here" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true">
@@ -113,7 +118,9 @@
           <div class="col-xl-8">
             <!-- Section Title -->
             <div class="section-title section-title--l8 text-center">
-              <h2 class="section-title__heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Why Join the Waitlist?</h2>
+              <h2 class="section-title__heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
+                Why Join the Waitlist?
+              </h2>
             </div>
             <!--/ .Section Title -->
           </div>
@@ -126,7 +133,9 @@
                 <i class="text-bittersweet fas fa-bell"></i>
               </div>
               <h3 class="card--services-l6__heading">Early Access</h3>
-              <p class="card--services-l6__content">Be the first to unlock financial freedom.</p>
+              <p class="card--services-l6__content">
+                Be first to offer On-Demand Pay to your workforce — ahead of competitors.
+              </p>
             </div>
           </div>
           <!--/ .Single Services -->
@@ -137,7 +146,8 @@
                 <i class="text-niagara fas fa-layer-group"></i>
               </div>
               <h3 class="card--services-l6__heading">Exclusive Perks</h3>
-              <p class="card--services-l6__content">Waitlist members enjoy zero transaction<br class="d-none d-xs-block"> fees at launch.
+              <p class="card--services-l6__content">Employers who sign up today receive priority onboarding + zero transaction fees at launch, 
+                <br class="d-none d-xs-block"> for your company and employees.
               </p>
             </div>
           </div>
@@ -148,8 +158,10 @@
               <div class="card--services-l6__icon bg-op1__coral mx-auto">
                 <i class="text-coral fas fa-envelope"></i>
               </div>
-              <h3 class="card--services-l6__heading">Be Part of the Future of Pay.</h3>
-              <p class="card--services-l6__content">Help shape how Africa gets paid.</p>
+              <h3 class="card--services-l6__heading"> Shape the Future of Pay.</h3>
+              <p class="card--services-l6__content">
+                Provide input, feedback, and influence how we build the platform for future of work.
+              </p>
             </div>
           </div>
           <!--/ .Single Services -->
@@ -158,11 +170,12 @@
               <div class="col-xl-8 col-lg-10 col-md-11">
                 <div class="section-title section-title--l4 text-center">
                   <h3 class="card--services-l6__heading">
-                    Already 2,000+ workers and 50+ employers are ahead of you — don’t miss your spot!
+                    Already 54+ Employers and 1,420+ Employees are on board. Don't let your workforce miss out.
+
                   </h3>
                   <div class="button-group">
                     <a class="btn btn--lg btn-bittersweet shadow--bittersweet-2 text-white rounded-50 with-icon-2" href="#join-here" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true"><i class="fab fa-apple"></i>
-                      Reserve My Spot Now
+                      Join the Waitlist
                     </a>
                   </div>
                 </div>
@@ -238,13 +251,15 @@
                 <div class="newsletter-form " style="position: relative; z-index: 2;">
                   <form wire:submit.prevent="submit">
                     <div class="d-flex align-items-center justify-content-center flex-column flex-xs-row mb-3">
-                      <input wire:model="fullName" class="form-control  border-0 promo--l6-newsletter rounded-35" type="text" placeholder="Enter full name" required>
+                      <input wire:model="fullName" class="form-control  border-0 promo--l6-newsletter rounded-35" type="text" placeholder="Enter Company name / Full name
+" required>
                     </div>
                     <div class="w-100 ms-3">
                       @error('fullName') <span class="text-danger text-sm">{{ $message }}</span> @enderror
                     </div>
                     <div class="d-flex align-items-center justify-content-center flex-column flex-xs-row mb-3">
-                      <input wire:model="email" class="form-control  border-0 promo--l6-newsletter rounded-35" type="email" placeholder="Enter your email" required>
+                      <input wire:model="email" class="form-control  border-0 promo--l6-newsletter rounded-35" type="email" placeholder="Enter official / Personal email
+" required>
                     </div>
                     <div class="w-100 ms-3">
                       @error('email') <span class="text-danger text-sm">{{ $message }}</span> @enderror
@@ -257,7 +272,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center flex-column flex-xs-row mb-3">
                       <select wire:model="employmentType" class="form-select border-0 promo--l6-newsletter promo--l6-select rounded-35 w-100" aria-label="Default select example">
-                        <option value="">Select Employment Type</option>
+                        <option value="">Select Employment</option>
                         <option value="employee">Employee</option>
                         <option value="employer">Employer</option>
                       </select>
