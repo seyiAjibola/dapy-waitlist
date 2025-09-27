@@ -1,4 +1,9 @@
 <div class="site-wrapper overflow-hidden ">
+  <style>
+    .card--services-l6__icon {
+      position: relative;
+    }
+  </style>
     
     <!-- Clean The Code And Hop in -->
     <!-- Header Area -->
@@ -130,7 +135,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-xs-8">
             <div class="card card--services-l6 text-center card-hover__bittersweet">
               <div class="card--services-l6__icon bg-op1__bittersweet mx-auto">
-                <i class="text-bittersweet fas fa-bell"></i>
+                <img src="./image/home-7/access.png" alt="" class="img-fluid" style="width: 40px; height: 40px; position: absolute; top: 10px; left: 10px;">
               </div>
               <h3 class="card--services-l6__heading">Early Access</h3>
               <p class="card--services-l6__content">
@@ -143,7 +148,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-xs-8">
             <div class="card card--services-l6 text-center card-hover__niagara">
               <div class="card--services-l6__icon bg-op1__niagara mx-auto">
-                <i class="text-niagara fas fa-layer-group"></i>
+                <img src="./image/home-7/perks.png" alt="" class="img-fluid" style="width: 40px; height: 40px; position: absolute; top: 10px; left: 13px;">
               </div>
               <h3 class="card--services-l6__heading">Exclusive Perks</h3>
               <p class="card--services-l6__content">Employers who sign up today receive priority onboarding + zero transaction fees at launch, 
@@ -156,7 +161,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-xs-8">
             <div class="card card--services-l6 text-center card-hover__coral">
               <div class="card--services-l6__icon bg-op1__coral mx-auto">
-                <i class="text-coral fas fa-envelope"></i>
+                <img src="./image/home-7/money.png" alt="" class="img-fluid" style="width: 40px; height: 40px; position: absolute; top: 10px; left: 12px;">
               </div>
               <h3 class="card--services-l6__heading"> Shape the Future of Pay.</h3>
               <p class="card--services-l6__content">
