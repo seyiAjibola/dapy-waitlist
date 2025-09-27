@@ -73,16 +73,16 @@
           <!-- Welcome content Area -->
           <div class="col-xxl-6 col-lg-7 col-md-9 col-xs-11 order-2 order-lg-1">
             <div class="welcome-content welcome-content--l8">
-              <h1 class="welcome-content--l8__title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Work Today.<br class="d-none d-xs-block d-lg-none d-xl-block">Get Paid Today.</h1>
+              <h1 class="welcome-content--l8__title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Work Today.<br class="d-none d-xs-block d-lg-none d-xl-block">Paid Today.</h1>
               <p class="welcome-content--l8__descriptions" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true">
-                In today’s fast-paced world, financial stress directly impacts employee performance and loyalty. Waiting until payday is no longer sustainable.
+                In today's fast-paced world, financial stress directly impacts employee performance and loyalty. Waiting until payday is no longer sustainable.
                 <br class="d-none d-md-block">
                 <br class="d-none d-md-block">
-               <strong>Dapy’s On-Demand Pay(EWA) changes everything:</strong>
+               <strong>Dapy's On-Demand Pay(EWA) changes everything:</strong>
                <br />
-               <strong>For Employers</strong> → A proven way to boost recruitment, improve retention, and increase engagement.
+               <strong>Employee: </strong> Take Control of Their Finances — Financial Stability, Reduced Stress, and Improved Quality of Life.
                 <br />
-                <strong>For Employees</strong> → Financial flexibility when it’s needed most.
+                <strong>Employers: </strong> Increased Retention, Stronger Recruitment, and Improved Operational Efficiency.
 
               </p>
               <div class="welcome-btn-group--l8">
@@ -251,14 +251,14 @@
                 <div class="newsletter-form " style="position: relative; z-index: 2;">
                   <form wire:submit.prevent="submit">
                     <div class="d-flex align-items-center justify-content-center flex-column flex-xs-row mb-3">
-                      <input wire:model="fullName" class="form-control  border-0 promo--l6-newsletter rounded-35" type="text" placeholder="Enter Company name / Full name
+                      <input wire:model="employerOrEmployee" class="form-control  border-0 promo--l6-newsletter rounded-35" type="text" placeholder="Enter employer / employee
 " required>
                     </div>
                     <div class="w-100 ms-3">
-                      @error('fullName') <span class="text-danger text-sm">{{ $message }}</span> @enderror
+                      @error('employerOrEmployee') <span class="text-danger text-sm">{{ $message }}</span> @enderror
                     </div>
                     <div class="d-flex align-items-center justify-content-center flex-column flex-xs-row mb-3">
-                      <input wire:model="email" class="form-control  border-0 promo--l6-newsletter rounded-35" type="email" placeholder="Enter official / Personal email
+                      <input wire:model="email" class="form-control  border-0 promo--l6-newsletter rounded-35" type="email" placeholder="Enter email
 " required>
                     </div>
                     <div class="w-100 ms-3">
@@ -273,8 +273,8 @@
                     <div class="d-flex align-items-center justify-content-center flex-column flex-xs-row mb-3">
                       <select wire:model="employmentType" class="form-select border-0 promo--l6-newsletter promo--l6-select rounded-35 w-100" aria-label="Default select example">
                         <option value="">Select Employment</option>
-                        <option value="employee">Employee</option>
-                        <option value="employer">Employer</option>
+                        <option value="employee">Employer</option>
+                        <option value="employer">Employee</option>
                       </select>
                     </div>
                     <div class="w-100 ms-3">

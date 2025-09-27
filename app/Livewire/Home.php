@@ -10,7 +10,7 @@ use Illuminate\Validation\Rule;
 class Home extends Component
 {
     #[Validate('required|string|max:255')]
-    public string $fullName;
+    public string $employerOrEmployee;
 
     #[Validate('required|email|unique:waitlists|max:255')]
     public string $email;
@@ -19,7 +19,7 @@ class Home extends Component
     public string $phone;
     
     #[Validate('required|in:employee,employer')]
-    public string $employmentType = 'employee';
+    public string $employment = 'employee';
 
     public int $waitlistNumber = 257;
 
@@ -32,10 +32,10 @@ class Home extends Component
         $this->validate();
         
         $waitlist = Waitlist::create([
-            'full_name' => $this->fullName,
+            'full_name' => $this->employerOrEmployee,
             'email' => $this->email,
             'phone' => $this->phone,
-            'employment_type' => $this->employmentType,
+            'employment_type' => $this->employment,
         ]);
 
         if($waitlist) $this->waitlistNumber = $this->waitlistNumber + Waitlist::count();
